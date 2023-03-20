@@ -1,0 +1,52 @@
+.card {
+  border: 1px solid black;
+  box-shadow: 0 0 5px black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-self: normal;
+  width: 240px;
+  margin: 15px;
+  background: black;
+}
+.card:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem red;
+}
+
+.card-image img {
+  width: 239px;
+}
+.card-song,
+.card-title {
+  text-align: start;
+  margin: 0;
+  padding: 10px;
+  color: white;
+}
+.card-title {
+  font-size: 10px;
+}
+.card-song {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.home-cards {
+  width: 80%;
+  text-align: start;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.home-cards > .card {
+  display: inline-block;
+}
+span p {
+  display: inline-block;
+  color: white;
+  margin: 1rem;
+}
